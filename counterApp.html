@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+<link rel="stylesheet" href="counter.css">
+  </head>
+  <body>
+    <section class="outer">
+      <h1 style="color: yellow; font-size: 40px">राधा🦚</h1>
+
+      <div class="progress-container">
+        <!---------------------------------------------------------------------------------------------------------------------------------------->
+        <svg width="220" height="220">
+          <!-- background circle -->
+          <circle
+            cx="110"
+            cy="110"
+            r="90"
+            stroke="#ddd"
+            stroke-width="12"
+            fill="none"
+          />
+
+          <!-- progress circle -->
+          <circle
+            id="progressCircle"
+            cx="110"
+            cy="110"
+            r="90"
+            stroke="blueviolet"
+            stroke-width="12"
+            fill="none"
+            stroke-linecap="round"
+          />
+        </svg>
+        <!----------------------------------------------------------------------------------------------------------------------------------------->
+        <div id="circle">0 / 108</div>
+      </div>
+
+      <button id="btn" onclick="countUpdate()">राधा</button>
+      <p id="para" style="color: brown"></p>
+      <p id="para2" style="color: brown"></p>
+    </section>
+
+   <script src="counterApp.js"></script>
+  </body>
+</html>
